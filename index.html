@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity Photo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CLARITY PHOTOGRAPHY</h1>
+        <p>Capturing Moments. Creating Memories.</p>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#booking">Book Session</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio">
+        <h2>Our Photography Categories</h2>
+        
+        <div id="gallery-grid">
+            
+            <div class="photo-category">
+                <h3>Weddings</h3>
+                <img src="photo1.webp" 
+                     alt="">
+                <p>Timeless memories from your special day.</p>
+            </div>
+
+            <div class="photo-category">
+                <h3>Portraits</h3>
+                <img src="chilled-young-black-male-model-in-studio-portrait-free-image.webp" 
+                     alt="Close-up portrait photo">
+                <p>Professional headshots and artistic portraits.</p>
+            </div>
+
+            <div class="photo-category">
+                <h3>Nature & Travel</h3>
+                <img src="photography-landscape-adoramapix.jpg" 
+                     alt="Scenic nature landscape photo">
+                <p>Landscapes, wildlife, and stunning travel scenes.</p>
+            </div>
+            
+            <div class="photo-category">
+                <h3>Events</h3>
+                <img src="media_15955bf89f635a586d897b5c35f7a447b495f6ed7.jpg" 
+                     alt="Photo of a live event">
+                <p>Coverage for corporate events and parties.</p>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="booking">
+        <h2>Book a Session</h2>
+        <p>Ready to capture your moment? Fill out the details below.</p>
+
+        <form class="booking-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="session_type">Type of Shoot</label>
+                <select id="session_type" name="session_type" required>
+                    <option>Portrait</option>
+                    <option>Wedding</option>
+                    <option>Corporate Event</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="details">Details/Preferred Date</label>
+                <textarea id="details" name="details" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="submit-book">Request Booking</button>
+        </form>
+    </section>
+
+    <footer id="about">
+        <p>Clarity Photography | Based in New York | Available Worldwide</p>
+        <p>Contact: info@clarityphoto.com | &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
+
+
